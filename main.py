@@ -3,10 +3,8 @@ from sklearn.preprocessing import LabelEncoder
 import os
 import torch.utils.data as util_data
 from torch.utils.data import Dataset 
-from Estimator import Estimator
+from my_model_cluster import Estimator
 
-!git clone https://github.com/dsfsi/textaugment.git    
-!pip install textaugment 
   
 from textaugment import EDA                     
 import nltk
