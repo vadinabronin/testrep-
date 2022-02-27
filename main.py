@@ -11,6 +11,7 @@ import nltk
 
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 t1 = EDA(random_state=1)  
 t2 = EDA(random_state=2)
